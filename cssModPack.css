@@ -1,0 +1,13 @@
+.btn-mod {
+  background-color: var(--stone);
+  color: #fff;
+  border: 1px solid var(--gold);
+  transition: all 0.3s ease;
+  font-size: 0.9rem;
+}
+
+.btn-mod:hover {
+  background-color: var(--hover);
+  color: var(--gold);
+  transform: translateX(5px);
+}
